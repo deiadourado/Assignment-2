@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Fuggles-Regular;
+    src: url("../Fonts/Fuggles-Regular.ttf");
+  }
+
+@font-face {
+    font-family: CroissantOne-Regular;
+    src: url("../Fonts/CroissantOne-Regular.ttf");
+  }
+
+body {
+    background-image: url("../Images/amart.png");
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position-x: right;
+    background-color: #000;
+  }
+
+h1{
+    color: #fff;
+    font-family: Fuggles-Regular;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px pink;
+    text-align: justify;
+}
+
+p{
+    color:#fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p:hover {
+    background-color: palevioletred;
+  }
+
+.verse1 {
+    font-family: Georgia, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    text-align: justify;
+}
+.verse2 {
+    font-family: Georgia, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    text-align: justify;
+}
+.chorus {
+    font-family: CroissantOne-Regular;
+    color: #fff;
+    text-align: justify;
+}
+
+iframe {
+    align-self: center;
+  }
+
+.title:hover {
+    transform: rotate(2.5turn);
+}
+
+.title {
+    font-variant-caps: small-caps;
+}
+
+#AMmusic {
+    border: none;
+    width: 220px;
+    height: 115px;
+}

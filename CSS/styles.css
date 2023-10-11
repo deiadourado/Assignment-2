@@ -27,6 +27,8 @@ h1{
 p{
     color:#fff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display:block;
+    width: 200px;
 }
 
 p:hover {
